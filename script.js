@@ -23,5 +23,7 @@ btns.forEach((btn, idx) => {
     console.log(targetPos); //'1000' 숫자처럼 보이는 문자값
     const convertedTargetPos = parseInt(targetPos); //'1000' -> 1000 으로 변환
     console.log(convertedTargetPos);
+
+    new Anime(window, { scroll: convertedTargetPos });
   });
 });
