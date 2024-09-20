@@ -93,7 +93,7 @@ class Anime {
 
     const easingPresets = {
       linear: [0, 0, 1, 1],
-      ease1: [0.4, -0.61, 0.54, 1.61],
+      ease1: [0.22, -1.27, 0.58, 1.87],
       ease2: [0, 1.82, 0.94, -0.73],
     };
 
